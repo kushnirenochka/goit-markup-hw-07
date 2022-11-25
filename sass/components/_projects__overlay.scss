@@ -1,0 +1,31 @@
+.projects__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #3f51b5;
+    transform: translatey(101%);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    background: rgba(33, 150, 243, 0.9);
+    
+    &-p {
+        position: absolute;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.56;
+        width: 301px;
+        height: 196px;
+        margin: 49px 45px;
+        margin-left: 24px;
+        color: rgba(255, 255, 255, 1);
+    }
+    
+    .projects__container-items:hover & {
+        transform: translatey(0);
+    }
+}

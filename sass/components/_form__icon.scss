@@ -1,0 +1,9 @@
+.form__icon {
+    margin: 11px 12px;
+    
+    .form__div:focus-within & {
+        fill: var(--blue-color);
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}

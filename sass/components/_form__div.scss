@@ -1,0 +1,23 @@
+.form__div {
+    position: relative;
+    display: flex;
+    padding: 0;
+    height: 40px;
+    width: 448px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    margin-bottom: 28px;
+    
+    &:focus-within {
+        border-color: var(--blue-color);
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    &--comment {
+        position: relative;
+        width: 448px;
+        height: 120px;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,22 @@
+.client {
+    padding: 94px 0;
+    
+    &__header {
+        width: 1200px;
+        font-size: 36px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    
+    &__container {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+}

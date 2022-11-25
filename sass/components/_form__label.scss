@@ -1,0 +1,16 @@
+.form__label {
+    position: absolute;
+    color: #757575;
+    margin-top: -18px;
+    margin-left: 0;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    
+    &--checkbox {
+        position: relative;
+        margin-left: 49px;
+        font-size: 14px;
+        line-height: 1.71;
+    }
+}

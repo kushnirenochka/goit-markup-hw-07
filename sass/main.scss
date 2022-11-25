@@ -1,4 +1,48 @@
 @import "./utils/vars";
 
-
+@import "./components/activity";
+@import "./components/assets";
+@import "./components/backdrop";
 @import "./components/body";
+
+@import "./components/client_rectangle";
+@import "./components/client";
+
+@import "./components/footer__address";
+@import "./components/footer__join-us";
+@import "./components/footer__logo-addres";
+@import "./components/footer__logo";
+@import "./components/footer__newsletter";
+@import "./components/footer__sm";
+@import "./components/footer";
+
+@import "./components/form__checkbox";
+@import "./components/form__div";
+@import "./components/form__group";
+@import "./components/form__head";
+@import "./components/form__icon";
+@import "./components/form__input";
+@import "./components/form__label";
+@import "./components/form__textarea";
+@import "./components/form_submit-btn";
+
+@import "./components/header__contact";
+@import "./components/header__logo-nav";
+@import "./components/header__logo";
+@import "./components/header__nav";
+@import "./components/header__top";
+
+@import "./components/heading";
+
+@import "./components/is-hidden";
+@import "./components/modal-btn";
+@import "./components/modal";
+
+@import "./components/projects__container-img";
+@import "./components/projects__filters";
+@import "./components/projects__overlay";
+@import "./components/projects_container";
+@import "./components/projects";
+
+@import "./components/team__social-media";
+@import "./components/team";

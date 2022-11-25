@@ -1,0 +1,14 @@
+.footer {
+    background: #2F303A;
+    height: 252px;
+    padding: 60px 0px;
+    
+    &__container {
+        width: 1200px;
+        display: flex;
+        flex-direction: row;
+        gap: 70px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+}

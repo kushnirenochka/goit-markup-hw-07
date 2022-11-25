@@ -1,0 +1,42 @@
+.footer__address {
+
+    &-list {
+        list-style-type: none;
+        padding: 0px ;
+        margin: 0px;
+        height: 81px;
+    }
+
+    &-item {
+    font-weight: 400;
+    font-size: 14px;   
+    
+        &:nth-child(2) {
+            margin-bottom: 9px;
+        }
+        &-location {
+            font-size: 14px;
+            line-height: 1.71;
+            letter-spacing: 0.03em;
+            color: var(--primary-color);
+            font-style:normal;
+            margin-bottom: 9px;
+        }
+    }
+    &-link{
+        font-style: normal;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+        color: #FFFFFF99;
+        transition: color 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        
+        &-mailto {
+            text-decoration-line: underline;
+        }
+        &:hover { 
+            color: var(--blue-color);
+        }
+    }
+}

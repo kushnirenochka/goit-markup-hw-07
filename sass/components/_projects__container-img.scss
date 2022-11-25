@@ -1,0 +1,22 @@
+.projects__container-img {
+    display: block;
+    
+    &-title {
+        border: 1px solid #EEEEEE;
+    }
+    
+    &-name {
+        font-size: 18px;
+        line-height: 2.25;
+        letter-spacing: 0.06em;
+        margin: 20px 24px 4px;
+    }
+    
+    &-type {
+        color: #757575;
+        font-size: 16px;
+        line-height: 1.875;
+        letter-spacing: 0.03em;
+        margin: 4px 24px 20px;
+    }
+}
